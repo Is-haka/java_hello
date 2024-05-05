@@ -6,6 +6,6 @@ public class Main {
         //JOption Input dialog added
         String input = JOptionPane.showInputDialog("Input your message");
         //JOption message dialog added
-        JOptionPane.showMessageDialog(null, input);
+        JOptionPane.showMessageDialog(null, "Your message: " + input);
     }
 }
